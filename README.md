@@ -6,27 +6,28 @@ El repositorio, proporcionamos el código fuente y los recursos necesarios para 
 Ya sea que estés desarrollando una aplicación de preguntas y respuestas, un chatbot o cualquier otra aplicación que requiera generación de respuestas precisas, este repositorio te proporcionará una base sólida para comenzar.
 
 Tecnologías utilizadas
-  *Python 3.10.8: Lenguaje de programación utilizado para implementar el modelo.
+- Python 3.10.8: Lenguaje de programación utilizado para implementar el modelo.
+- BERT.
 Bibliotecas utilizadas
-  *transformers: Biblioteca de Hugging Face que proporciona una interfaz sencilla para utilizar modelos de lenguaje pre-entrenados, incluyendo BERT.
-  *tensorflow 2.12.0: Biblioteca de aprendizaje automático de código abierto para la implementación de modelos de aprendizaje profundo.
-  *pytorch: Biblioteca de aprendizaje automático de código abierto que proporciona una forma eficiente de entrenar modelos de aprendizaje profundo.
-  *bs4: Biblioteca para realizar web scraping y manipular documentos HTML.
-  *pip: Gestor de paquetes de Python utilizado para instalar las dependencias necesarias.
-  *requests: Biblioteca para realizar solicitudes HTTP y trabajar con APIs web.
-  *time: Módulo de Python para trabajar con funciones relacionadas con el tiempo.
-  *textwrap: Módulo de Python para dar formato y manipular cadenas de texto.
+-   transformers: Biblioteca de Hugging Face que proporciona una interfaz sencilla para utilizar modelos de lenguaje pre-entrenados, incluyendo BERT.
+-   tensorflow 2.12.0: Biblioteca de aprendizaje automático de código abierto para la implementación de modelos de aprendizaje profundo.
+-   pytorch: Biblioteca de aprendizaje automático de código abierto que proporciona una forma eficiente de entrenar modelos de aprendizaje profundo.
+-   bs4: Biblioteca para realizar web scraping y manipular documentos HTML.
+-   pip: Gestor de paquetes de Python utilizado para instalar las dependencias necesarias.
+-   requests: Biblioteca para realizar solicitudes HTTP y trabajar con APIs web.
+-   time: Módulo de Python para trabajar con funciones relacionadas con el tiempo.
+-    textwrap: Módulo de Python para dar formato y manipular cadenas de texto.
 
 Uso
-1.Clona este repositorio en tu máquina local.
-2.Ejecuta el archivo main.py para generar respuestas a preguntas basadas en el contexto proporcionado.
+1. Clona este repositorio en tu máquina local.
+2. Ejecuta el archivo main.py para generar respuestas a preguntas basadas en el contexto proporcionado.
 
 Instalación
 Para ejecutar este proyecto, se requiere tener instaladas las dependencias, para esto descomentar las siguientes sentencias:
-  instalar_libreria('tensorflow').
-  instalar_libreria('transformers').
-  instalar_libreria('torch').
-  instalar_libreria('bs4').
+-  instalar_libreria('tensorflow').
+-  instalar_libreria('transformers').
+-   instalar_libreria('torch').
+-   instalar_libreria('bs4').
 
 Se puede probar este proyecto desde el siguiente notebook en Google Colab:
 https://colab.research.google.com/drive/1WIFU46c8Ym10jcWS_3FNcx-yAiUn1YwL?usp=sharing
